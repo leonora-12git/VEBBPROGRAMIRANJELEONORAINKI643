@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Леонора Реџепи - ВП</title>
+	<link rel="stylesheet" type="text/css" href="Dizajn.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="skripta.js"></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="Madrid.html">Мадрид</a></li>
+				<li><a href="Barselona.html">Барселона</a></li>
+				<li><a href="Ibica.html">Ибица</a></li>
+				<li><a href="Malaga.html">Малага</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main id="main">
+		<h1>Шпанија</h1>
+		<p>Шпанија е држава која се наоѓа во Пиринејскиот Полуостров. Граничи со Португалија, Андора, Франција и Гибралтар.</p> 
+		<p>Главен град е Мадрид. Има површина од 505.904km<sup>2</sup>. Други познати градови се Малага, Барселона, Ибица, Тенерифе и други.</p>
+		<p>Официјален јазик е шпански. Други јазици кои се зборуваат во државата се каталонски, баскиски и галисиски.</p>
+		<table width="50%" height="75%" border="0">
+		<tr><td><form>
+		<table width="50%" height="50%" border="0"><tr><td>
+		<input type="image" name="slika" id="slika" src="sliki/spain.png" alt="Spanija"></td></tr>
+		<tr><td><input type="button" onclick="promenaNaSlika()" value="Промени слика" class="kopce1"></tr></td></table></td>
+		<td><img src="sliki/spain.jpg"></td> <td> <img src="sliki/plazha.jpg"> </td>
+		<td>
+		<form>
+        <label for="ime">Внеси име:</label><br>
+        <input type="text" id="ime" name="ime"><br>
+        <label for="prezime">Внеси презиме:</label><br>
+        <input type="text" id="prezime" name="prezime"><br>
+		<label for="mesto">Внеси место:</label><br>
+        <input type="text" id="mesto" name="mesto"><br>
+        <input type="button" value="Внеси" class="kopce1" onclick="alertKopce()">
+        </form> </td>
+        <input type="button" value="Промени позадина" class="kopce1" onclick="pozadina()">
+		</tr> </table> </form>
+	</main>
+	<footer>
+		<p>&copy; 2023 - Леонора Реџепи ИНКИ643 (Веб Програмирање)</p>
+	</footer>
+</body>
+</html>
